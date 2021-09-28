@@ -3,6 +3,8 @@ import { createGlobalStyle } from 'styled-components';
 const GlobalStyle = createGlobalStyle`
   :root {
     --color-primary: #1db954;
+    --color-primary-lighter: #1ed760;
+
     --color-secondary: #2e77d0;
 
     --color-neutral-01: #000000;

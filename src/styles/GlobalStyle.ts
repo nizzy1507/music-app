@@ -15,6 +15,8 @@ const GlobalStyle = createGlobalStyle`
     --color-neutral-06: #535353;
     --color-neutral-07: #b3b3b3;
     --color-neutral-08: #ffffff;
+
+    --border-radius: 50rem;
   }
 
   *, *::before, *::after {
@@ -32,6 +34,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Inter', sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
+    background-color: var(--color-neutral-06);
   }
 
   img {
@@ -42,6 +45,10 @@ const GlobalStyle = createGlobalStyle`
   a {
     text-decoration: none;
     display: inline-block;
+  }
+
+  svg {
+    display: block;
   }
 `;
 
